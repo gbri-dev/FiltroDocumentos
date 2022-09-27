@@ -1,0 +1,17 @@
+{
+  "runtimeOptions": {
+    "tfm": "netcoreapp3.1",
+    "framework": {
+      "name": "Microsoft.WindowsDesktop.App",
+      "version": "3.1.0"
+    },
+    "additionalProbingPaths": [
+      "C:\\Users\\marcos.batista\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\marcos.batista\\.nuget\\packages",
+      "C:\\el\\componentes\\dotNet\\Components\\Offline Packages"
+    ],
+    "configProperties": {
+      "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
+    }
+  }
+}
