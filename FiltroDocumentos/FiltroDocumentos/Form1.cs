@@ -17,6 +17,7 @@ namespace FiltroDocumentos
         public Form1()
         {
             InitializeComponent();
+            count.Visible = false;
         }
 
         private void teste_Click(object sender, EventArgs e)
@@ -69,10 +70,18 @@ namespace FiltroDocumentos
         }
         private void GetFile(string rota)
         {
-            var arquivo = Directory.GetDirectories(rota);
+            var arquivo = Directory.GetFiles(rota);
 
             foreach (string dir in arquivo)
                 listBox1.Items.Add(dir);
+
+            count.Text = arquivo.Length.ToString();
+            count.Visible = true;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
