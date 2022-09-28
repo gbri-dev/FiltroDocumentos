@@ -35,6 +35,10 @@ namespace FiltroDocumentos
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.count = new System.Windows.Forms.Label();
+            this.bntConcatenar = new System.Windows.Forms.Button();
+            this.btnFiltrar = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,18 +55,21 @@ namespace FiltroDocumentos
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(10, 68);
+            this.dataGridView1.Location = new System.Drawing.Point(11, 56);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 29;
-            this.dataGridView1.Size = new System.Drawing.Size(662, 86);
+            this.dataGridView1.Size = new System.Drawing.Size(662, 208);
             this.dataGridView1.TabIndex = 2;
             // 
             // btn_arquivos
             // 
-            this.btn_arquivos.Location = new System.Drawing.Point(10, 166);
+            this.btn_arquivos.Location = new System.Drawing.Point(10, 268);
             this.btn_arquivos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_arquivos.Name = "btn_arquivos";
             this.btn_arquivos.Size = new System.Drawing.Size(82, 22);
@@ -75,7 +82,7 @@ namespace FiltroDocumentos
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 15;
-            this.listBox1.Location = new System.Drawing.Point(11, 194);
+            this.listBox1.Location = new System.Drawing.Point(11, 304);
             this.listBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(661, 94);
@@ -84,7 +91,7 @@ namespace FiltroDocumentos
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 294);
+            this.label1.Location = new System.Drawing.Point(13, 404);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(32, 15);
             this.label1.TabIndex = 5;
@@ -93,17 +100,57 @@ namespace FiltroDocumentos
             // count
             // 
             this.count.AutoSize = true;
-            this.count.Location = new System.Drawing.Point(52, 294);
+            this.count.Location = new System.Drawing.Point(52, 404);
             this.count.Name = "count";
             this.count.Size = new System.Drawing.Size(38, 15);
             this.count.TabIndex = 6;
             this.count.Text = "count";
             // 
+            // bntConcatenar
+            // 
+            this.bntConcatenar.Location = new System.Drawing.Point(14, 440);
+            this.bntConcatenar.Name = "bntConcatenar";
+            this.bntConcatenar.Size = new System.Drawing.Size(75, 23);
+            this.bntConcatenar.TabIndex = 7;
+            this.bntConcatenar.Text = "Concatenar";
+            this.bntConcatenar.UseVisualStyleBackColor = true;
+            // 
+            // btnFiltrar
+            // 
+            this.btnFiltrar.Location = new System.Drawing.Point(95, 440);
+            this.btnFiltrar.Name = "btnFiltrar";
+            this.btnFiltrar.Size = new System.Drawing.Size(75, 23);
+            this.btnFiltrar.TabIndex = 8;
+            this.btnFiltrar.Text = "Filtrar";
+            this.btnFiltrar.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(14, 470);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(59, 15);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "ID+Nome";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(236, 418);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(200, 15);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "Vai ler o banco de dados e buscar os ";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(682, 392);
+            this.ClientSize = new System.Drawing.Size(688, 505);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.btnFiltrar);
+            this.Controls.Add(this.bntConcatenar);
             this.Controls.Add(this.count);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBox1);
@@ -128,6 +175,10 @@ namespace FiltroDocumentos
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label count;
+        private System.Windows.Forms.Button bntConcatenar;
+        private System.Windows.Forms.Button btnFiltrar;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
 

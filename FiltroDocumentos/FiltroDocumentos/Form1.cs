@@ -28,7 +28,7 @@ namespace FiltroDocumentos
                 using (SqlConnection cnbd = new SqlConnection(Conection.cbd))
                 {
                     cnbd.Open();
-                    var sqlQuery = "select * from t_elemento_upl";
+                    var sqlQuery = "select * from elemente_uplTeste";
                     using(SqlDataAdapter da = new SqlDataAdapter(sqlQuery, cnbd))
                     {
                         using (DataTable dt = new DataTable())

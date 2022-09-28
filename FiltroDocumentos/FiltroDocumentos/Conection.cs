@@ -6,7 +6,7 @@ namespace FiltroDocumentos
 {
     class Conection
     {
-        public static string cbd = @"Data Source=wks-dev17;Integrated Security=true;Initial Catalog=eldados_transparencia_geral";
+        public static string cbd = @"Data Source=wks-dev14;Integrated Security=true;Initial Catalog=eldados_transparencia_geral";
               
     }
 }
