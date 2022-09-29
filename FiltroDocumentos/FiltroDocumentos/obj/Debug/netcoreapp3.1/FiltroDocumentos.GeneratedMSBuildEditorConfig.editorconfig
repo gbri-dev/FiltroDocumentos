@@ -1,3 +1,7 @@
 is_global = true
 build_property.RootNamespace = FiltroDocumentos
+<<<<<<< HEAD
 build_property.ProjectDir = C:\temp\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\
+=======
+build_property.ProjectDir = C:\dev\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\
+>>>>>>> ec80f4d39463554c4b743574670d338eab930b95
