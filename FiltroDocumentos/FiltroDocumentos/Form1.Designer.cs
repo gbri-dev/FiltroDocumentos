@@ -33,14 +33,16 @@ namespace FiltroDocumentos
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btn_arquivos = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
+            this.count = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // teste
             // 
-            this.teste.Location = new System.Drawing.Point(12, 40);
+            this.teste.Location = new System.Drawing.Point(10, 30);
+            this.teste.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.teste.Name = "teste";
-            this.teste.Size = new System.Drawing.Size(94, 29);
+            this.teste.Size = new System.Drawing.Size(82, 22);
             this.teste.TabIndex = 0;
             this.teste.Text = "teste";
             this.teste.UseVisualStyleBackColor = true;
@@ -49,18 +51,20 @@ namespace FiltroDocumentos
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 90);
+            this.dataGridView1.Location = new System.Drawing.Point(10, 68);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 29;
-            this.dataGridView1.Size = new System.Drawing.Size(756, 114);
+            this.dataGridView1.Size = new System.Drawing.Size(662, 86);
             this.dataGridView1.TabIndex = 2;
             // 
             // btn_arquivos
             // 
-            this.btn_arquivos.Location = new System.Drawing.Point(12, 222);
+            this.btn_arquivos.Location = new System.Drawing.Point(10, 166);
+            this.btn_arquivos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_arquivos.Name = "btn_arquivos";
-            this.btn_arquivos.Size = new System.Drawing.Size(94, 29);
+            this.btn_arquivos.Size = new System.Drawing.Size(82, 22);
             this.btn_arquivos.TabIndex = 3;
             this.btn_arquivos.Text = "Arquivos";
             this.btn_arquivos.UseVisualStyleBackColor = true;
@@ -69,25 +73,38 @@ namespace FiltroDocumentos
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 20;
-            this.listBox1.Location = new System.Drawing.Point(13, 258);
+            this.listBox1.ItemHeight = 15;
+            this.listBox1.Location = new System.Drawing.Point(11, 194);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(755, 124);
+            this.listBox1.Size = new System.Drawing.Size(661, 94);
             this.listBox1.TabIndex = 4;
+            // 
+            // count
+            // 
+            this.count.AutoSize = true;
+            this.count.Location = new System.Drawing.Point(13, 303);
+            this.count.Name = "count";
+            this.count.Size = new System.Drawing.Size(38, 15);
+            this.count.TabIndex = 5;
+            this.count.Text = "count";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(780, 523);
+            this.ClientSize = new System.Drawing.Size(682, 392);
+            this.Controls.Add(this.count);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.btn_arquivos);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.teste);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -97,6 +114,7 @@ namespace FiltroDocumentos
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btn_arquivos;
         private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Label count;
     }
 }
 

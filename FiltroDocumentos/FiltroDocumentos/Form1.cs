@@ -69,10 +69,14 @@ namespace FiltroDocumentos
         }
         private void GetFile(string rota)
         {
-            var arquivo = Directory.GetDirectories(rota);
-
+            var arquivo = Directory.GetFiles(rota);
+            
             foreach (string dir in arquivo)
                 listBox1.Items.Add(dir);
+
+            count.Text = arquivo.Length.ToString();
+
         }
+
     }
 }
