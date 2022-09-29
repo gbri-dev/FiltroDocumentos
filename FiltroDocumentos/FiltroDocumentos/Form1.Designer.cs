@@ -39,6 +39,8 @@ namespace FiltroDocumentos
             this.btnFiltrar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lblPath = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,7 +51,7 @@ namespace FiltroDocumentos
             this.teste.Name = "teste";
             this.teste.Size = new System.Drawing.Size(82, 22);
             this.teste.TabIndex = 0;
-            this.teste.Text = "teste";
+            this.teste.Text = "Table";
             this.teste.UseVisualStyleBackColor = true;
             this.teste.Click += new System.EventHandler(this.teste_Click);
             // 
@@ -69,7 +71,7 @@ namespace FiltroDocumentos
             // 
             // btn_arquivos
             // 
-            this.btn_arquivos.Location = new System.Drawing.Point(10, 268);
+            this.btn_arquivos.Location = new System.Drawing.Point(10, 278);
             this.btn_arquivos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_arquivos.Name = "btn_arquivos";
             this.btn_arquivos.Size = new System.Drawing.Size(82, 22);
@@ -123,30 +125,53 @@ namespace FiltroDocumentos
             this.btnFiltrar.TabIndex = 8;
             this.btnFiltrar.Text = "Filtrar";
             this.btnFiltrar.UseVisualStyleBackColor = true;
+            this.btnFiltrar.Click += new System.EventHandler(this.btnFiltrar_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(14, 470);
+            this.label2.Location = new System.Drawing.Point(15, 466);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(59, 15);
             this.label2.TabIndex = 9;
             this.label2.Text = "ID+Nome";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(236, 418);
+            this.label3.Location = new System.Drawing.Point(349, 440);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(200, 15);
+            this.label3.Size = new System.Drawing.Size(286, 45);
             this.label3.TabIndex = 10;
-            this.label3.Text = "Vai ler o banco de dados e buscar os ";
+            this.label3.Text = "Concatena nome da pasta com nome do arquivo\r\nFiltrar se existe o arquivo no banco" +
+    " de dados e copiar\r\nos existentes para uma nova pasta.";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(14, 419);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(31, 15);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "Path";
+            // 
+            // lblPath
+            // 
+            this.lblPath.AutoSize = true;
+            this.lblPath.Location = new System.Drawing.Point(51, 419);
+            this.lblPath.Name = "lblPath";
+            this.lblPath.Size = new System.Drawing.Size(23, 15);
+            this.lblPath.TabIndex = 12;
+            this.lblPath.Text = "C:/\r\n";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(688, 505);
+            this.Controls.Add(this.lblPath);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnFiltrar);
@@ -179,6 +204,8 @@ namespace FiltroDocumentos
         private System.Windows.Forms.Button btnFiltrar;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblPath;
     }
 }
 
