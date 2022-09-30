@@ -17,28 +17,35 @@ namespace FiltroDocumentos
 
         private void teste_Click(object sender, EventArgs e)
         {
-
-            try
-            {
-                using (SqlConnection cnbd = new SqlConnection(Conection.cbd))
+            //DialogResult OpDoUser = new DialogResult();
+            //OpDoUser = MessageBox.Show("Qual o Nome da sua Tabela? ", "Table", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            //if(OpDoUser == DialogResult.OK)
+            //{
+            var nomeColuna = txtColuna.Text;
+            var nomeTabela = txtTabela.Text;
+                try
                 {
-                    cnbd.Open();
-                    var sqlQuery = "select * from elemente_uplTeste";
-                    using(SqlDataAdapter da = new SqlDataAdapter(sqlQuery, cnbd))
+                    using (SqlConnection cnbd = new SqlConnection(Conection.cbd))
                     {
-                        using (DataTable dt = new DataTable())
+                        cnbd.Open();
+                        var sqlQuery = $"select {nomeColuna} from {nomeTabela}";
+                        using (SqlDataAdapter da = new SqlDataAdapter(sqlQuery, cnbd))
                         {
-                            da.Fill(dt);
-                            dataGridView1.DataSource = dt;
+                            using (DataTable dt = new DataTable())
+                            {
+                                da.Fill(dt);
+                                dataGridView1.DataSource = dt;
+                            }
                         }
                     }
-                }
 
-            }
-            catch (SqlException erro)
-            {
-                MessageBox.Show("Erro ao conectar, verifique os dados!\n" + erro);
-            }
+                }
+                catch (SqlException erro)
+                {
+                    MessageBox.Show("Erro ao conectar, verifique os dados!\n" + erro);
+                }
+           // }
+          
         }
 
         private void btn_arquivos_Click(object sender, EventArgs e)
@@ -62,6 +69,8 @@ namespace FiltroDocumentos
 
             foreach (string dir in diretorio)
                 listBox1.Items.Add(dir + "<dir>");
+            lblPath.Text = rota;
+            lblNote.Visible = false;
         }
         private void GetFile(string rota)
         {
@@ -81,47 +90,7 @@ namespace FiltroDocumentos
 
         private void btnFiltrar_Click(object sender, EventArgs e)
         {
-            //try
-            //{
-            //    using (SqlConnection cnbd = new SqlConnection(Conection.cbd))
-            //    {
-            //        cnbd.Open();
-            //        var sqlQuery = "select EDARQUIVO from LICITACAOARQUIVO_TB";
-            //        using (SqlDataAdapter da = new SqlDataAdapter(sqlQuery, cnbd))
-            //        {
-            //            using (DataTable dt = new DataTable())
-            //            {
-            //                da.Fill(dt);
-            //                dataGridView1.DataSource = dt;
-            //            }
-            //        }
-            //    }
-
-            //}
-            //catch (SqlException erro)
-            //{
-            //    MessageBox.Show("Erro ao conectar, verifique os dados!\n" + erro);
-            //}
-
-            FolderBrowserDialog fbd1 = new FolderBrowserDialog();
-            fbd1.Description = "Selecione o diretório de destino";
-            //define pasta inicial
-            fbd1.RootFolder = Environment.SpecialFolder.MyComputer;
-            fbd1.ShowNewFolderButton = true;
-            if (fbd1.ShowDialog() == DialogResult.OK)
-            {
-                // Exibe a pasta selecionada
-                lblPath.Text = fbd1.SelectedPath;
-                lblPath.Visible = true;
-            }
-
-            string origem = lblPath.Text;
-            string arquivo = Path.GetFileName(origem);
-            // string destino = Path.Combine(count.Text, arquivo);
-
-            // File.Copy(origem, destino, true);
-            // MessageBox.Show($"Arquivo {origem} Copiado com sucesso \npara {destino}");
-            lblPath.Text = fbd1.ToString();
+                      
         }
 
         private void label2_Click(object sender, EventArgs e)
