@@ -462,19 +462,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\temp\\Marcos\\FiltroDocumentos\\FiltroDocumentos\\FiltroDocumentos\\FiltroDocumentos.csproj",
-      "projectName": "FiltroDocumentos",
-      "projectPath": "C:\\temp\\Marcos\\FiltroDocumentos\\FiltroDocumentos\\FiltroDocumentos\\FiltroDocumentos.csproj",
-      "packagesPath": "C:\\Users\\gabriel.silva\\.nuget\\packages\\",
-      "outputPath": "C:\\temp\\Marcos\\FiltroDocumentos\\FiltroDocumentos\\FiltroDocumentos\\obj\\",
-=======
       "projectUniqueName": "C:\\dev\\Marcos\\FiltroDocumentos\\FiltroDocumentos\\FiltroDocumentos\\FiltroDocumentos.csproj",
       "projectName": "FiltroDocumentos",
       "projectPath": "C:\\dev\\Marcos\\FiltroDocumentos\\FiltroDocumentos\\FiltroDocumentos\\FiltroDocumentos.csproj",
       "packagesPath": "C:\\Users\\gabriel.silva\\.nuget\\packages\\",
       "outputPath": "C:\\dev\\Marcos\\FiltroDocumentos\\FiltroDocumentos\\FiltroDocumentos\\obj\\",
->>>>>>> ec80f4d39463554c4b743574670d338eab930b95
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Componentes\\dotNet\\Components\\Offline Packages",
@@ -536,5 +528,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\dev\\Marcos\\FiltroDocumentos\\FiltroDocumentos\\FiltroDocumentos\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
