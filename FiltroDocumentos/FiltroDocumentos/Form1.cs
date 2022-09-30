@@ -75,11 +75,17 @@ namespace FiltroDocumentos
         private void GetFile(string rota)
         {
             var arquivo = Directory.GetFiles(rota);
+<<<<<<< HEAD
+            
+=======
 
+>>>>>>> ec80f4d39463554c4b743574670d338eab930b95
             foreach (string dir in arquivo)
                 listBox1.Items.Add(dir);
 
             count.Text = arquivo.Length.ToString();
+<<<<<<< HEAD
+=======
             count.Visible = true;
         }
 
@@ -95,7 +101,9 @@ namespace FiltroDocumentos
 
         private void label2_Click(object sender, EventArgs e)
         {
+>>>>>>> ec80f4d39463554c4b743574670d338eab930b95
 
         }
+
     }
 }

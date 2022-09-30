@@ -21,6 +21,31 @@ C:\Users\marcos.batista\Desktop\Filtro documentos\FiltroDocumentos\FiltroDocumen
 C:\Users\marcos.batista\Desktop\Filtro documentos\FiltroDocumentos\FiltroDocumentos\obj\Debug\netcoreapp3.1\FiltroDocumentos.dll
 C:\Users\marcos.batista\Desktop\Filtro documentos\FiltroDocumentos\FiltroDocumentos\obj\Debug\netcoreapp3.1\FiltroDocumentos.pdb
 C:\Users\marcos.batista\Desktop\Filtro documentos\FiltroDocumentos\FiltroDocumentos\obj\Debug\netcoreapp3.1\FiltroDocumentos.genruntimeconfig.cache
+<<<<<<< HEAD
+C:\temp\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\bin\Debug\netcoreapp3.1\FiltroDocumentos.exe
+C:\temp\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\bin\Debug\netcoreapp3.1\FiltroDocumentos.deps.json
+C:\temp\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\bin\Debug\netcoreapp3.1\FiltroDocumentos.runtimeconfig.json
+C:\temp\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\bin\Debug\netcoreapp3.1\FiltroDocumentos.runtimeconfig.dev.json
+C:\temp\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\bin\Debug\netcoreapp3.1\FiltroDocumentos.dll
+C:\temp\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\bin\Debug\netcoreapp3.1\FiltroDocumentos.pdb
+C:\temp\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\temp\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\temp\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\temp\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\temp\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\temp\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\temp\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\obj\Debug\netcoreapp3.1\FiltroDocumentos.csproj.AssemblyReference.cache
+C:\temp\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\obj\Debug\netcoreapp3.1\FiltroDocumentos.Form1.resources
+C:\temp\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\obj\Debug\netcoreapp3.1\FiltroDocumentos.csproj.GenerateResource.cache
+C:\temp\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\obj\Debug\netcoreapp3.1\FiltroDocumentos.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\obj\Debug\netcoreapp3.1\FiltroDocumentos.AssemblyInfoInputs.cache
+C:\temp\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\obj\Debug\netcoreapp3.1\FiltroDocumentos.AssemblyInfo.cs
+C:\temp\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\obj\Debug\netcoreapp3.1\FiltroDocumentos.csproj.CoreCompileInputs.cache
+C:\temp\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\obj\Debug\netcoreapp3.1\FiltroDocumentos.csproj.CopyComplete
+C:\temp\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\obj\Debug\netcoreapp3.1\FiltroDocumentos.dll
+C:\temp\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\obj\Debug\netcoreapp3.1\FiltroDocumentos.pdb
+C:\temp\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\obj\Debug\netcoreapp3.1\FiltroDocumentos.genruntimeconfig.cache
+=======
 C:\dev\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\bin\Debug\netcoreapp3.1\FiltroDocumentos.exe
 C:\dev\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\bin\Debug\netcoreapp3.1\FiltroDocumentos.deps.json
 C:\dev\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\bin\Debug\netcoreapp3.1\FiltroDocumentos.runtimeconfig.json
@@ -44,3 +69,4 @@ C:\dev\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\obj\Debug\netco
 C:\dev\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\obj\Debug\netcoreapp3.1\FiltroDocumentos.dll
 C:\dev\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\obj\Debug\netcoreapp3.1\FiltroDocumentos.pdb
 C:\dev\Marcos\FiltroDocumentos\FiltroDocumentos\FiltroDocumentos\obj\Debug\netcoreapp3.1\FiltroDocumentos.genruntimeconfig.cache
+>>>>>>> ec80f4d39463554c4b743574670d338eab930b95

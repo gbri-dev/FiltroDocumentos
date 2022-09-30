@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "nyvKI5GDoXhHDPRgn1+Su/jTbPZ4vlImyA+M0qPS+uMekb5Je90JFjTgB50lHNHMr2c4gOYElj9Eeg1a6Mir/w==",
+  "success": true,
+  "projectFilePath": "C:\\temp\\Marcos\\FiltroDocumentos\\FiltroDocumentos\\FiltroDocumentos\\FiltroDocumentos.csproj",
+=======
   "dgSpecHash": "urci1IPw3elwvohOblvoxeHluQvPPuC1r9zqq+kG3+uuY5IC8e10uSGHP4G16bwVcaYBg9R2RWEVowuvVcshGg==",
   "success": true,
   "projectFilePath": "C:\\dev\\Marcos\\FiltroDocumentos\\FiltroDocumentos\\FiltroDocumentos\\FiltroDocumentos.csproj",
+>>>>>>> ec80f4d39463554c4b743574670d338eab930b95
   "expectedPackageFiles": [
     "C:\\Users\\gabriel.silva\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\gabriel.silva\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
